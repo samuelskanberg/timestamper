@@ -8,4 +8,5 @@ Setup
 cp .env.example .env
 docker-compose build
 docker-compose up
+docker-compose exec django python manage.py createsuperuser
 ```
