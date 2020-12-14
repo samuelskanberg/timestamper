@@ -1,6 +1,6 @@
-# Django-postgres-docker
+# Timestamper
 
-This is a boilerplate for django, postgres and docker compose.
+This is a simple app to log different stuff.
 
 ## Setup
 
@@ -10,13 +10,3 @@ docker-compose build
 docker-compose up
 docker-compose exec django python manage.py createsuperuser
 ```
-
-## Next step
-
-[Create an app](https://docs.djangoproject.com/en/3.1/intro/tutorial01/):
-
-```bash
-docker-compose exec django python manage.py startapp polls
-```
-
-Remember that everything created from within docker will be with root permissions.
